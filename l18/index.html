@@ -35,6 +35,12 @@
 			}
 		];
 
+		arr1 = arr.filter(function( obj ) {
+				return obj.last === 'Way';
+		});
+
+		console.log(arr1);
+
 		arr = $.grep( arr, function( obj, index) {
 			return obj.last === 'Way';
 		});
